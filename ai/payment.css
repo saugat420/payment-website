@@ -307,6 +307,11 @@ dd {
   box-shadow: 0 12px 30px rgba(17, 24, 39, 0.08);
 }
 
+.qr-card img.esewa-qr-image {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
 .qr-card span {
   color: var(--brand-blue-dark);
   font-size: 0.9rem;
